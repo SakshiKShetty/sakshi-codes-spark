@@ -1,4 +1,5 @@
 import { ArrowRight, Download, Mail, Github, Linkedin, Sparkles } from "lucide-react";
+import resumeAsset from "@/assets/resume.pdf.asset.json";
 
 export function Hero() {
   return (
