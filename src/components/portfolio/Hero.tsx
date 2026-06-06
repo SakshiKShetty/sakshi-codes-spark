@@ -50,8 +50,8 @@ export function Hero() {
 
           <div className="flex items-center gap-4 mt-4 text-muted-foreground">
             <a href="mailto:sakshikshetty11@gmail.com" aria-label="Email" className="hover:text-foreground transition"><Mail size={18} /></a>
-            <a href="#" aria-label="GitHub" className="hover:text-foreground transition"><Github size={18} /></a>
-            <a href="#" aria-label="LinkedIn" className="hover:text-foreground transition"><Linkedin size={18} /></a>
+            <a href="https://github.com/SakshiKShetty" target="_blank" rel="noopener noreferrer" aria-label="GitHub" className="hover:text-foreground transition"><Github size={18} /></a>
+            <a href="https://www.linkedin.com/in/sakshi-shetty-14b9952a4/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="hover:text-foreground transition"><Linkedin size={18} /></a>
             <span className="text-xs flex items-center gap-1.5"><Sparkles size={12} className="text-accent" /> CGPA 9.8 · CSE</span>
           </div>
         </div>
