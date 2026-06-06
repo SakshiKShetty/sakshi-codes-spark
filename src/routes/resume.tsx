@@ -4,6 +4,7 @@ import { Download, FileText, ArrowLeft } from "lucide-react";
 import { Link } from "@tanstack/react-router";
 import { Nav, ScrollProgress } from "@/components/portfolio/Nav";
 import { Footer } from "@/components/portfolio/Footer";
+import resumeAsset from "@/assets/resume.pdf.asset.json";
 
 export const Route = createFileRoute("/resume")({
   head: () => ({
@@ -17,8 +18,8 @@ export const Route = createFileRoute("/resume")({
 });
 
 const docs = {
-  resume: { label: "Resume", file: "/resume.pdf" },
-  cv: { label: "CV", file: "/cv.pdf" },
+  resume: { label: "Resume", file: resumeAsset.url },
+  cv: { label: "CV", file: resumeAsset.url },
 };
 
 function ResumePage() {
