@@ -24,11 +24,11 @@ export function Contact() {
               <Mail size={18} className="text-accent" />
               <span className="text-sm group-hover:text-gradient transition">sakshikshetty11@gmail.com</span>
             </a>
-            <a href="#" className="flex items-center gap-3 glass rounded-xl p-4 hover:bg-white/[0.06] transition">
+            <a href="https://www.linkedin.com/in/sakshi-shetty-14b9952a4/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 glass rounded-xl p-4 hover:bg-white/[0.06] transition">
               <Linkedin size={18} className="text-accent" />
               <span className="text-sm">LinkedIn</span>
             </a>
-            <a href="#" className="flex items-center gap-3 glass rounded-xl p-4 hover:bg-white/[0.06] transition">
+            <a href="https://github.com/SakshiKShetty" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 glass rounded-xl p-4 hover:bg-white/[0.06] transition">
               <Github size={18} className="text-accent" />
               <span className="text-sm">GitHub</span>
             </a>
