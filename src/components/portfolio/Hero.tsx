@@ -40,7 +40,7 @@ export function Hero() {
             <a href="#projects" className="group inline-flex items-center gap-2 rounded-full px-5 py-3 bg-gradient-to-r from-primary to-accent text-primary-foreground font-medium hover:opacity-90 transition shadow-lg shadow-primary/20">
               View Projects <ArrowRight size={16} className="group-hover:translate-x-0.5 transition" />
             </a>
-            <a href="/resume.pdf" download className="inline-flex items-center gap-2 rounded-full px-5 py-3 glass hover:bg-white/10 transition font-medium">
+            <a href={resumeAsset.url} download target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 rounded-full px-5 py-3 glass hover:bg-white/10 transition font-medium">
               <Download size={16} /> Download Resume
             </a>
             <a href="#contact" className="inline-flex items-center gap-2 rounded-full px-5 py-3 glass hover:bg-white/10 transition font-medium">
