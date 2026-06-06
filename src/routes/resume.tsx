@@ -42,11 +42,11 @@ function ResumePage() {
           </a>
         </div>
 
-        <div className="glass-strong rounded-3xl p-2 overflow-hidden glow-ring">
-          <iframe
-            src={resumeAsset.url}
-            title="Sakshi Shetty Resume"
-            className="w-full h-[80vh] rounded-2xl bg-black/30"
+        <div className="glass-strong rounded-3xl p-4 sm:p-6 overflow-hidden glow-ring">
+          <img
+            src={resumePage1.url}
+            alt="Sakshi Shetty Resume"
+            className="w-full h-auto rounded-2xl bg-white shadow-2xl"
           />
         </div>
       </section>
