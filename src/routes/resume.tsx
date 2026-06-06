@@ -3,6 +3,7 @@ import { Download, ArrowLeft } from "lucide-react";
 import { Nav, ScrollProgress } from "@/components/portfolio/Nav";
 import { Footer } from "@/components/portfolio/Footer";
 import resumeAsset from "@/assets/resume.pdf.asset.json";
+import resumePage1 from "@/assets/resume_page_1.jpg.asset.json";
 
 export const Route = createFileRoute("/resume")({
   head: () => ({
