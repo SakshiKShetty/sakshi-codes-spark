@@ -1,13 +1,13 @@
-import { Link } from "@tanstack/react-router";
+import { Link, useLocation } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
 
 const links = [
-  { href: "#about", label: "About" },
-  { href: "#skills", label: "Skills" },
-  { href: "#projects", label: "Projects" },
-  { href: "#experience", label: "Experience" },
-  { href: "#contact", label: "Contact" },
+  { hash: "about", label: "About" },
+  { hash: "skills", label: "Skills" },
+  { hash: "projects", label: "Projects" },
+  { hash: "experience", label: "Experience" },
+  { hash: "contact", label: "Contact" },
 ];
 
 export function Nav() {
